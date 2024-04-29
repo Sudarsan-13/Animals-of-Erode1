@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
     delay: 100,
   });
   ScrollReveal().reveal(
-    ".home-content h3, .home-content p, .about-content p, .help-content, .conclusion-content",
+    ".home-content h3, .home-content p, .about-content p, .help-content",
     {
       origin: "right",
       reset: true,
