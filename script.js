@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
   handleScroll(); // Initial scroll check
 
   // Initialize ScrollReveal
-  ScrollReveal().reveal(".home-content, .footer-content , .about-content h2", {
+  ScrollReveal().reveal(".home-content, .about-content h2", {
     origin: "top",
     reset: true,
     distance: "80px",
