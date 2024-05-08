@@ -436,6 +436,23 @@ section {
   height: 30px;
 }
 
+.copyright {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.powered-by {
+  display: inline-flex;
+  align-items: center;
+}
+
+.powered-by img {
+  max-width: 40px; 
+  height: auto;
+  margin-left: 5px; 
+}
+
+
 
 
 /* Media queries */
@@ -683,11 +700,28 @@ section {
     width: 30px; 
     height: 30px; 
   }
+
+.powered-by {
+    margin-top: 5px;
+  }
+  
+  .powered-by img {
+    max-width: 50px;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .items {
     width: 100%; 
+  }
+
+  
+ .powered-by img {
+    max-width: 30px; 
+  }
+
+  .copyright{
+    margin: 10px;
   }
 }
 
@@ -740,5 +774,9 @@ section {
     text-align: center;
     margin-top: 2rem;
   }
+
+ .powered-by img {
+    max-width: 30px; 
+ }
 }
 
